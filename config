@@ -1,0 +1,66 @@
+[global_config]
+[keybindings]
+  go_next = <Alt>n
+  go_prev = <Alt>b
+  go_up = <Alt>k
+  go_down = <Alt>j
+  go_left = <Alt>l
+  go_right = <Alt>h
+  layout_launcher = <Alt>Right
+[profiles]
+  [[old_default]]
+    background_color = "#282828"
+    font = Sans 10
+    foreground_color = "#ebdbb2"
+    scrollback_lines = 10000000
+  [[default]]
+    font = Source Code Pro 20
+    use_system_font = False
+    background_color = "#282828"
+    foreground_color = "#ebdbb2"
+    scrollback_lines = 10000000
+[layouts]
+  [[default]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 0:0
+      maximised = False
+      fullscreen = False
+      size = 1276, 684
+      title = /usr/bin/zsh
+      last_active_term = 002fb196-68e7-4ee7-be22-7727946a55d1
+      last_active_window = False
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      order = 0
+      profile = default
+      uuid = 002fb196-68e7-4ee7-be22-7727946a55d1
+    [[[child2]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 0:708
+      maximised = False
+      fullscreen = False
+      size = 2556, 685
+      title = /usr/bin/zsh
+      last_active_term = 94dbe296-225c-4bcd-9298-2853f6a2c8a2
+      last_active_window = True
+    [[[terminal3]]]
+      type = Terminal
+      parent = child2
+      order = 0
+      profile = default
+      uuid = 94dbe296-225c-4bcd-9298-2853f6a2c8a2
+  [[oldDefault]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
